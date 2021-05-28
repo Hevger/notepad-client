@@ -19,6 +19,11 @@ WORKDIR /usr/share/nginx/html
 # Remove default nginx static assets
 RUN rm -rf *
 
+# Fix 404 Not Found
+RUN rm -rf /etc/nginx/conf.d
+COPY conf /etc/nginx
+
+
 # Copy static assets from builder stage
 COPY --from=0 /app/build .
 

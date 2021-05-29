@@ -6,9 +6,10 @@ COPY ./package.json ./
 COPY ./package-lock.json ./
 
 RUN npm install --production
-RUN npm test
 
 COPY . .
+
+RUN npm test
 
 RUN npm run build
 

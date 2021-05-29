@@ -3,7 +3,8 @@ import SignupForm from "./SignupForm";
 
 const LeftPanel = () => {
   return (
-    <div data-testid='leftPanelDiv'>
+    <div data-testid="leftPanelDiv">
+      <SignupForm />
       <div style={{ width: "25rem", marginTop: "5rem" }}>
         <h3>Your notes SHOULD be secure !</h3>
         <p>

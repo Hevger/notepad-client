@@ -17,7 +17,7 @@ const NoteListItem = ({ note }) => {
 
   return (
     <div className="noteBox">
-      <h2>{note.title.substring(0, 35)}</h2>
+      <h2 data-testid='noteItem'>{note.title.substring(0, 35)}</h2>
       <div className="noteActions">
         <button>
           <i className="fas fa-pencil-alt"></i>

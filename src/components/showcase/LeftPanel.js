@@ -7,6 +7,7 @@ const LeftPanel = () => {
       <SignupForm />
       <div style={{ width: "25rem", marginTop: "5rem" }}>
         <h3>Your notes SHOULD be secure !</h3>
+        <h3>Yay !</h3>
         <p>
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc risus
           tortor, tincidunt non laoreet sit amet, sollicitudin quis tortor.
